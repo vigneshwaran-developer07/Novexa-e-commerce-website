@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Novexa</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <!--my css-->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Novexa</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">collections</a></p>
+            <p class="navbar-link"><a href="contact.html">contacts</a></p>
+
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </nav>
+    <!--side-navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+             <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">collections</a></p>
+            <p class="navbar-link"><a href="contact.html">contacts</a></p>
+
+        </div>
+
+    </div>
+
+    <!--contact page-->
+    <div class="contacts-body">
+
+     <div class="contacts-container">
+        <h2 class="contacts-h2">Contact Us</h2>
+
+        <form>
+            <label  class="contacts-label">Name:</label>
+            <input   class="c-input" type="text" placeholder="Enter your name">
+
+            <label class="contacts-label" >Email:</label>
+            <input class="c-input" type="email" placeholder="Enter your email">
+
+            <label class="contacts-label">Message:</label>
+            <textarea class="contacts-textarea" rows="5" placeholder="Enter your message"></textarea>
+
+            <button class="contacts-button" type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+  
+
+    <!--footer-->
+    <div class="footer">
+        <div class="f-container">
+        <div class="footer-box-1">
+            <h2 class="heading">Novexa</h2>
+            <p>Discover the next in shopping</p>
+            <div class="icon-box">
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </div>
+         </div>
+        </div>
+        <p>@Novexa.web</p>
+        <p>!! vickyacm07@gmail.com</p>
+         <p >325/1-main rood,nannilam,Thiruvarur</p>
+    </div>
+
+
+
+
+
+
+    <script src="contact.js"></script>
+
+
+
+
+</body>
+
+</html>
